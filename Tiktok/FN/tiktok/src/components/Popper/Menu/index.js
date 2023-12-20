@@ -3,6 +3,7 @@ import Tippy from '@tippyjs/react/headless';
 import styles from './Menu.module.scss';
 import MenuItem from './MenuItem';
 import { Wrapper as PopperWrapper } from '~/components/Popper'
+import Header from './Header';
 
 const cx = classNames.bind(styles);
 
@@ -21,6 +22,7 @@ function Menu({ children, items = [] }) {
             render={(attrs) => (
             <div className={cx('menu-list')} tabIndex="-1" {...attrs}>
                 <PopperWrapper className={cx('menu-popper')}>
+                    <Header title='Language' />
                     {renderItems()}
                 </PopperWrapper>
                 </div>
