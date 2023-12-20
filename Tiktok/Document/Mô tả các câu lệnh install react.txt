@@ -3,3 +3,4 @@
 * Reset css normalize: npm install --save normalize.css
 * React-router-dom: npm i react-router-dom
 * Classnames: npm i classnames
+* Tippyjs-react: npm i @tippyjs/react
