@@ -1,3 +1,6 @@
 * Customize-cra:  npm i customize-cra react-app-rewired -D  (customize-cra react-app-rewired --dev)
 * Sass:  npm i -D sass
 * Reset css normalize: npm install --save normalize.css
+* React-router-dom: npm i react-router-dom
+* Classnames: npm i classnames
+* Tippyjs-react: npm i @tippyjs/react
